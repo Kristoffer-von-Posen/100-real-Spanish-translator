@@ -1,0 +1,15 @@
+body 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#F9E795 ;
+    color:  #F96167;
+}
+button:hover
+{
+ height: 700;
+ width: 700;
+ background-color: #F96167;
+}
