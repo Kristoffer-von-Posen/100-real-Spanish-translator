@@ -4,18 +4,60 @@ body
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color:#F9E795 ;
-    color:  #F96167;
+    height: 100vh;
+    width: 100vw;
+    margin:0%;
+}
+div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 
-button
+
+.testbox
 {
-    padding: 20px;
+    z-index: 3;
+    background-color:blue;
+    height: 50px;
+    width: 50px;
 }
 
-button:hover
+
+
+
+
+
+
+
+/*BACKGROUND*/
+.red_pasek
 {
- height: 400px;
- width: 400px;
- background-color: #F96167;
+    background-color: #AA151B;
+    height: 25%;
+    width: 100%;
 }
+.yellow_pasek
+{
+    z-index: -1;
+    background-color: #F1BF00;
+    height: 50%;
+    width: 100%;
+}
+
+#emblem
+{
+    z-index: -1;
+    background-image: url("emblem.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 25%;
+    transform: translateX(-25vw);
+
+}
+
